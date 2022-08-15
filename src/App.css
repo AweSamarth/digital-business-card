@@ -1,0 +1,105 @@
+html{
+  height:100%;
+}
+body{
+  color:white;
+  background: #23252C;  
+  font-family:Inter, sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  box-sizing: border-box;
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  /* border:2px solid red */
+}
+#root{
+  background: #1A1B21;
+  display:flex;
+  text-align: center;
+  width:35%;
+  height:99%;
+  /* border:1px solid red; */
+  border-radius:6px;  
+}
+
+
+.aligner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  width:100%;
+}
+
+.component{
+  border:1px solid red;
+  width:100%;
+}
+
+
+
+
+
+#info{
+  height:60%;
+}
+a{
+  text-decoration: none;
+  color:unset;
+}
+.infotext-container{
+  padding-top:0.2em;
+  /* border:1px solid white; */
+}
+
+.imagecontainer{
+  overflow:hidden;
+
+  height:70%;
+}
+
+#thepfp{
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 100%;
+  width:105%;
+  object-fit: cover;
+  object-position:top;
+}
+#name{
+  font-size: 2em;
+  font-weight: 700;
+}
+#whatido{
+  margin-block:0.2em;
+  font-size:1em;
+  color: #F3BF99;
+
+}
+#website{
+  margin-block:0.9em;
+  font-size:0.9em;
+}
+
+
+
+
+
+
+
+
+
+#about{
+  height:17.5%;
+}
+#interests{
+  height:17.5%;
+}
+#footer{
+  height:5%; 
+}
+
