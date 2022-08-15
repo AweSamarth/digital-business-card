@@ -229,6 +229,23 @@ a{
 }
 @media(max-width:550px){
   #root{
-    width:85%;
+    width:100%;
+
+  }
+  #info{
+    height:55%;
+  }
+
+  #interests{
+    height:20%;
+  }
+  #about{
+    height:20%;
+  }
+  .imagecontainer{
+    height:55%;
+  }
+  #footer{
+    height:5%;
   }
 }
