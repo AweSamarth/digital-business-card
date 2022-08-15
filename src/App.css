@@ -19,7 +19,7 @@ body{
   background: #1A1B21;
   display:flex;
   text-align: center;
-  width:35%;
+  width:25%;
   height:99%;
   /* border:1px solid red; */
   border-radius:6px;  
@@ -36,7 +36,7 @@ body{
 }
 
 .component{
-  border:1px solid red;
+  /* border:1px solid red; */
   width:100%;
 }
 
@@ -45,46 +45,87 @@ body{
 
 
 #info{
+  /* border: 1px solid white; */
+  padding-bottom: 0;
   height:60%;
+  overflow: hidden;
 }
 a{
   text-decoration: none;
   color:unset;
 }
 .infotext-container{
+  /* border: 1px solid white; */
+
+  display: flex;
+  flex-direction: column;
   padding-top:0.2em;
+  padding-left:1em;
+  padding-right:1em;
+  padding-bottom: 1em;
   /* border:1px solid white; */
 }
 
 .imagecontainer{
   overflow:hidden;
-
-  height:70%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height:60%;
 }
 
 #thepfp{
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  height: 100%;
+
   width:105%;
+  height:100%;
   object-fit: cover;
   object-position:top;
+
 }
 #name{
+  /* border: 1px solid blue; */
+  padding-top:0.1em;
   font-size: 2em;
   font-weight: 700;
 }
 #whatido{
+  /* border: 1px solid blue; */
+
   margin-block:0.2em;
   font-size:1em;
   color: #F3BF99;
 
 }
 #website{
-  margin-block:0.9em;
+  /* border: 1px solid blue; */
+
+  margin-block:0.5em;
   font-size:0.9em;
 }
-
+#somelinks{
+  margin-top:0.7em;
+  
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#email{
+  cursor:pointer;
+  border-radius: 5px;
+  padding-block: 0.5em;
+  background:white;
+  color:black;
+  /* border: 1px solid white; */
+  width:45%;
+}
+#linkedin{
+  cursor:pointer;
+  border-radius: 5px;
+  background: #5093E2;
+  padding-block: 0.5em;
+  /* border:1px solid white; */
+  width: 45%;
+}
 
 
 
@@ -94,12 +135,64 @@ a{
 
 
 #about{
-  height:17.5%;
+  height:22.5%;
+  padding-top:0.5em;
+  /* border: 1px solid white; */
 }
+#abouttext{
+  text-align: left;
+  /* border:1px solid white; */
+  padding-top:0.5em;
+  padding-left:25px;
+  padding-right:25px;
+  font-size:1.2em;
+  font-weight: 700;
+}
+
+#othertext{
+  color: #DCDCDC;
+  margin-top:5px;
+  padding-left:25px;
+  padding-right:25px;
+  text-align: left;
+  line-height: 1.3em;
+
+}
+
+
+
+
+
+
+
+
+
+
 #interests{
-  height:17.5%;
+  padding-top:0.5em;
+
+  height:22.5%;
 }
+#interesthead{
+  text-align: left;
+  /* border:1px solid white; */
+  padding-top:0.5em;
+  padding-left:25px;
+  padding-right:25px;
+  font-size:1.2em;
+  font-weight: 700;
+}
+#myinterests{
+  color: #DCDCDC;
+  margin-top:5px;
+  padding-left:25px;
+  padding-right:25px;
+  text-align: left;
+  line-height: 1.3em;
+}
+
 #footer{
+  border:1px solid white;
   height:5%; 
 }
 
