@@ -237,10 +237,14 @@ a{
   }
 
   #interests{
+    /* border: 1px solid white; */
+    margin-top:0.9em;
     height:20%;
   }
   #about{
-    height:20%;
+    /* border: 1px solid white; */
+
+    height:21%;
   }
   .imagecontainer{
     height:55%;
