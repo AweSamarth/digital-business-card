@@ -135,7 +135,8 @@ a{
 
 
 #about{
-  height:22.5%;
+  overflow: hidden;
+  height:21%;
   padding-top:0.5em;
   /* border: 1px solid white; */
 }
@@ -169,14 +170,12 @@ a{
 
 
 #interests{
-  padding-top:0.5em;
-
-  height:22.5%;
+  overflow: hidden;
+  height:21%;
 }
 #interesthead{
   text-align: left;
   /* border:1px solid white; */
-  padding-top:0.5em;
   padding-left:25px;
   padding-right:25px;
   font-size:1.2em;
@@ -191,8 +190,45 @@ a{
   line-height: 1.3em;
 }
 
+
+
+
+
+
+
 #footer{
-  border:1px solid white;
-  height:5%; 
+  background: #161619;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  /* border:1px solid white; */
+  height:8%; 
 }
 
+.deezlinks{
+  color: #918E9B;
+  font-size:2em;
+}
+
+@media(max-width:1250px){
+  #root{
+    width:30%;
+  }
+}
+@media(max-width:1100px){
+  #root{
+    width:45%;
+  }
+}
+@media(max-width:800px){
+  #root{
+    width:60%;
+  }
+}
+@media(max-width:550px){
+  #root{
+    width:85%;
+  }
+}
