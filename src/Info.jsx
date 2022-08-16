@@ -13,7 +13,7 @@ export default function Info(){
                 <div id="whatido">Frontend Developer, Technical Writer</div>
                 <div id="website"><a href="https://awesamarth.hashnode.dev" target="_blank">awesamarth.hashnode.dev</a></div>
                 <div id="somelinks">
-                    <div id="email"><a href="mailto:samarthasaxena1672003@gmail.com" target="_blank"> <i className="fa-solid fa-envelope"></i> Email</a></div>
+                    <div id="email"><a href="mailto:samarthsaxena1672003@gmail.com" target="_blank"> <i className="fa-solid fa-envelope"></i> Email</a></div>
                     <div id="linkedin"><a href="https://linkedin.com/in/awesamarth" target="_blank"><i className="fa-brands fa-linkedin"></i> LinkedIn</a></div>
                 </div>
             </div>
